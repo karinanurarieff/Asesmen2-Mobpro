@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Student Task Tracker</string>
+
+    <!-- Home Screen -->
+    <string name="empty_state">No tasks yet</string>
+    <string name="delete_title">Delete Task</string>
+    <string name="delete_message">Are you sure?</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Add/Edit Screen -->
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="subject">Subject</string>
+    <string name="pick_deadline">Pick Deadline</string>
+    <string name="mark_as_done">Mark as Done</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+
+    <!-- Toast -->
+    <string name="toast_empty_fields">All fields must be filled</string>
+    <string name="toast_saved">Task saved</string>
+    <string name="toast_updated">Task updated</string>
+    <string name="toast_deleted">Task deleted</string>
 </resources>

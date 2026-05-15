@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Student Task Tracker</string>
+
+    <!-- Home Screen -->
+    <string name="empty_state">Belum ada tugas</string>
+    <string name="delete_title">Hapus Tugas</string>
+    <string name="delete_message">Apakah kamu yakin?</string>
+    <string name="delete_confirm">Hapus</string>
+    <string name="cancel">Batal</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Hapus</string>
+
+    <!-- Add/Edit Screen -->
+    <string name="add_task">Tambah Tugas</string>
+    <string name="edit_task">Edit Tugas</string>
+    <string name="task_title">Judul Tugas</string>
+    <string name="subject">Mata Kuliah</string>
+    <string name="pick_deadline">Pilih Deadline</string>
+    <string name="mark_as_done">Tandai Selesai</string>
+    <string name="save">Simpan</string>
+    <string name="update">Perbarui</string>
+
+    <!-- Toast -->
+    <string name="toast_empty_fields">Semua kolom harus diisi</string>
+    <string name="toast_saved">Tugas berhasil disimpan</string>
+    <string name="toast_updated">Tugas berhasil diperbarui</string>
+    <string name="toast_deleted">Tugas berhasil dihapus</string>
+</resources>

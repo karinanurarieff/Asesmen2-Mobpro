@@ -13,6 +13,7 @@ class ThemePreferences(private val context: Context) {
 
     companion object {
         private val DARK_MODE = booleanPreferencesKey("dark_mode")
+        private val IS_GRID = booleanPreferencesKey("is_grid")
     }
 
     val darkModeFlow: Flow<Boolean> = context.dataStore.data.map { preferences ->
@@ -22,6 +23,16 @@ class ThemePreferences(private val context: Context) {
     suspend fun saveDarkMode(isDarkMode: Boolean) {
         context.dataStore.edit { preferences ->
             preferences[DARK_MODE] = isDarkMode
+        }
+    }
+
+    val isGridFlow: Flow<Boolean> = context.dataStore.data.map { preferences ->
+        preferences[IS_GRID] ?: false
+    }
+
+    suspend fun saveIsGrid(isGrid: Boolean) {
+        context.dataStore.edit { preferences ->
+            preferences[IS_GRID] = isGrid
         }
     }
 }
